@@ -1,0 +1,76 @@
+object Form1: TForm1
+  Left = 989
+  Top = 461
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = #1057#1080#1084#1074#1086#1083'-'#1085#1086#1084#1077#1088
+  ClientHeight = 178
+  ClientWidth = 353
+  Color = clSilver
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object rg1: TRadioGroup
+    Left = 16
+    Top = 16
+    Width = 185
+    Height = 97
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ItemIndex = 0
+    Items.Strings = (
+      'numder > char'
+      'char > numder')
+    ParentFont = False
+    TabOrder = 0
+  end
+  object btn1: TButton
+    Left = 64
+    Top = 128
+    Width = 225
+    Height = 33
+    Caption = 'Start'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+    OnClick = btn1Click
+  end
+  object edt1: TEdit
+    Left = 216
+    Top = 32
+    Width = 121
+    Height = 31
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 2
+  end
+  object edt2: TEdit
+    Left = 216
+    Top = 80
+    Width = 121
+    Height = 31
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 3
+  end
+end
